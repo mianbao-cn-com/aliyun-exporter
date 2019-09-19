@@ -162,3 +162,10 @@ HA 和 Prometheus 本身的 HA 方案一样，就是搭完全相同的两套监�
 ## 贡献
 
 我们欢迎 PR 或 issue 等任何形式的贡献! 你也可以在 [`help wanted`](https://github.com/aylei/aliyun-exporter/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) label 下找到适合开始贡献的 issue!
+
+## 配置特殊问题
+
+- RDS
+  如果prometheus 设置的抓取频率为1m,RDS出现断线的问题，请参考如下文章修改RDS的监控频率：
+  [`修改监控频率为1分钟`](https://help.aliyun.com/document_detail/96112.html?spm=a2c4g.11174283.6.679.6f064c22P2eOeW)
+  
